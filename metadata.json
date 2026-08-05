@@ -1,0 +1,6 @@
+{
+  "name": "Acelerador Kids - Oferta Especial OTO",
+  "description": "Página de Upsell (One-Time Offer / OTO) de Altíssima Conversão para a Coleção Ouro do Acelerador Kids.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
