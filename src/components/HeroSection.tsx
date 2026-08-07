@@ -68,14 +68,17 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onAccept, onDecline })
           </span>
         </div>
 
-        {/* High-Impact Main Headline */}
+        {/* High-Impact Aggressive Main Headline */}
         <div className="text-center max-w-4xl mx-auto mb-6">
+          <div className="inline-block bg-red-600 text-white font-black text-xs sm:text-sm px-3 py-1 rounded-md uppercase tracking-wider mb-2 animate-pulse">
+            🚨 OFERTA ÚNICA DE 1 CLIQUE — VÁLIDA APENAS AGORA!
+          </div>
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-black text-white leading-tight tracking-tight">
-            Aumente em <span className="bg-gradient-to-r from-amber-300 via-yellow-200 to-amber-400 bg-clip-text text-transparent underline decoration-amber-500/40">3x o Desenvolvimento</span> do Seu Filho com a Coleção Ouro de Audiobooks + Planner de Rotina Infantil!
+            Multiplique o Resultado do Seu Filho Adicionando a <span className="bg-gradient-to-r from-amber-300 via-yellow-200 to-amber-400 bg-clip-text text-transparent underline decoration-amber-500/60">Coleção Ouro</span> por Apenas R$ 29,90!
           </h1>
           
-          <p className="mt-2.5 text-sm sm:text-base md:text-lg text-slate-300 max-w-2xl mx-auto font-normal">
-            Adicione ao seu pedido agora por apenas <span className="text-emerald-400 font-black bg-emerald-950/90 px-2.5 py-0.5 rounded-lg border border-emerald-500/50 shadow-md">R$ 29,90</span> (Economia imediata de <span className="line-through text-slate-400 font-bold">R$ 117,00</span>).
+          <p className="mt-3 text-sm sm:text-base md:text-lg text-slate-200 max-w-2xl mx-auto font-medium">
+            Leve hoje <strong>+50 Audiobooks Bíblicos</strong> + <strong>Planner de Rotina Infantil</strong> de <span className="line-through text-slate-400 font-bold">R$ 147,00</span> por apenas <span className="text-emerald-400 font-black bg-emerald-950 px-2 py-0.5 rounded border border-emerald-500/40">1x R$ 29,90</span> (ou 3x R$ 10,50).
           </p>
         </div>
 
